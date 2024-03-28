@@ -1,0 +1,1011 @@
+repo_name: oeh77/ddev
+report_id: 4f1dcdec3fbe98f36a98b205c1ef9805
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-28T02:43:17+00:00'
+requested_by: gilbertsoft
+provider: github
+branch: master
+detected_tools_count: 74
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/oeh77/ddev
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/docs/content/assets/jquery-3.5.1.min.js
+  detection_source: docs/content/assets/jquery-3.5.1.min.js
+  last_updated_by: David Stoline
+  last_updated_on: 2021-03-04 17:59:29.000000000 Z
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/oeh77/ddev
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/oeh77/ddev
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/cmd/ddev/cmd/testdata/TestCmdExportDB/nondefault.sql
+  detection_source: cmd/ddev/cmd/testdata/TestCmdExportDB/nondefault.sql
+  last_updated_by: Randy Fay
+  last_updated_on: 2020-01-31 03:11:12.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/pkg/ddevapp/postgres/10/postgresql.conf
+  detection_source: pkg/ddevapp/postgres/10/postgresql.conf
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-02-08 04:37:00.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-14 20:11:17.000000000 Z
+- name: Composer
+  description: Dependency Manager for PHP
+  website_url: https://getcomposer.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/1688/New_Project__65_.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/containers/ddev-webserver/Dockerfile
+  detection_source: containers/ddev-webserver/Dockerfile
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-01-28 23:03:22.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/oeh77/ddev
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/oeh77/ddev
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/.github/workflows/cancel-previous-workflow.yml
+  detection_source: ".github/workflows/cancel-previous-workflow.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-10-18 00:03:29.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/containers/ddev-router/etc/nginx/nginx.conf
+  detection_source: containers/ddev-router/etc/nginx/nginx.conf
+  last_updated_by: Randy Fay
+  last_updated_on: 2020-08-23 00:20:53.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-24 08:01:26.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Dennis Ameling
+  last_updated_on: 2020-10-29 13:57:52.000000000 Z
+- name: wercker
+  description: Build, test, and deploy container-native applications
+  website_url: http://wercker.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/897/S67KcxKE.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/vendor/github.com/asaskevich/govalidator/wercker.yml
+  detection_source: vendor/github.com/asaskevich/govalidator/wercker.yml
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-01-19 19:08:22.000000000 Z
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/containers/ddev-dbserver/Dockerfile
+  detection_source: containers/ddev-dbserver/Dockerfile
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-24 01:29:08.000000000 Z
+- name: NSIS
+  description: Professional open source system to create Windows installers
+  website_url: http://nsis.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4728/Box.gif
+  detection_source_url: https://github.com/oeh77/ddev
+  detection_source: Repo Metadata
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/oeh77/ddev
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/oeh77/ddev
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/containers/ddev-dbserver/Dockerfile
+  detection_source: containers/ddev-dbserver/Dockerfile
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-01-08 15:41:15.000000000 Z
+- name: WordPress
+  description: A semantic personal publishing platform with a focus on aesthetics,
+    web standards, and usability.
+  website_url: http://wordpress.org
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/250/logo.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/pkg/dockerutil/testdata/docker-compose.yml
+  detection_source: pkg/dockerutil/testdata/docker-compose.yml
+  last_updated_by: Tanner J Ferguson
+  last_updated_on: 2017-05-09 22:56:37.000000000 Z
+- name: gogo/protobuf
+  description: Protocol Buffers for Go with Gadgets
+  package_url: https://pkg.go.dev/github.com/gogo/protobuf
+  version: 1.1.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in GoGo Protobuf
+    cve_id: CVE-2021-3121
+    cve_url: https://github.com/advisories/GHSA-c3h9-896r-86jm
+    detected_date: Mar 30
+    severity: high
+    first_patched: 1.3.2
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: Masterminds/goutils
+  description: GoUtils is a Go implementation of some string manipulation libraries
+    of Apache Commons
+  package_url: https://pkg.go.dev/github.com/Masterminds/goutils
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: ansiterm
+  description: Colored writers and tabwriters
+  package_url: https://pkg.go.dev/github.com/juju/ansiterm
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-03-05 05:17:59.000000000 Z
+- name: assert
+  description: Asserts to Go testing
+  package_url: https://pkg.go.dev/github.com/bmizerany/assert
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-02-18 18:00:14.000000000 Z
+- name: backo-go
+  description: Go port of segmentio/backo
+  package_url: https://pkg.go.dev/github.com/segmentio/backo-go
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2021-10-18 00:32:20.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-06-09 12:51:54.000000000 Z
+- name: check.v1
+  description: Package check is a rich testing extension for Go's testing package
+  package_url: https://pkg.go.dev/gopkg.in/check.v1
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-02-18 18:00:14.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  version: 1.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-10-24 00:43:14.000000000 Z
+- name: compress
+  description: Optimized compression packages
+  package_url: https://pkg.go.dev/github.com/klauspost/compress
+  version: 1.16.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: containerd
+  description: An open and reliable container runtime
+  package_url: https://pkg.go.dev/github.com/containerd/containerd
+  version: 1.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: copy
+  description: Golang copy directory recursively
+  package_url: https://pkg.go.dev/github.com/otiai10/copy
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2021-12-22 00:05:57.000000000 Z
+- name: copystructure
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/copystructure
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-24 08:01:26.000000000 Z
+- name: decimal
+  description: Arbitrary-precision fixed-point decimal numbers in go
+  package_url: https://pkg.go.dev/github.com/shopspring/decimal
+  version: 1.2.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2021-12-22 00:05:57.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2021-08-09 16:18:38.000000000 Z
+- name: go-ansiterm
+  description: Go package for ANSI terminal emulation in Windows
+  package_url: https://pkg.go.dev/github.com/Azure/go-ansiterm
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+- name: go-connections
+  description: Utility package to work with network connections
+  package_url: https://pkg.go.dev/github.com/docker/go-connections
+  version: 0.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: go-digest
+  description: Common digest package used across the container ecosystem
+  package_url: https://pkg.go.dev/github.com/opencontainers/go-digest
+  version: 1.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: go-dockerclient
+  description: Go client for the Docker Engine API
+  package_url: https://pkg.go.dev/github.com/fsouza/go-dockerclient
+  version: 1.9.7
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: go-homedir
+  description: Go library for detecting and expanding the user's home directory without
+    cgo
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-homedir
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2019-07-18 23:07:51.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Andrew Welch
+  last_updated_on: 2022-09-25 16:48:58.000000000 Z
+- name: go-querystring
+  description: Go-querystring is Go library for encoding structs into URL query parameters
+  package_url: https://pkg.go.dev/github.com/google/go-querystring
+  version: 1.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  version: 0.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-05-26 20:17:51.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-03-29 20:12:43.000000000 Z
+- name: go-units
+  description: Parse and print size and time units in human-readable format
+  package_url: https://pkg.go.dev/github.com/docker/go-units
+  version: 0.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-12-22 23:39:54.000000000 Z
+- name: go-winio
+  description: Win32 IO-related utilities for Go
+  package_url: https://pkg.go.dev/github.com/Microsoft/go-winio
+  version: 0.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: godotenv
+  description: A Go port of Ruby's dotenv library
+  package_url: https://pkg.go.dev/github.com/joho/godotenv
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-12-05 20:03:42.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+- name: govalidator
+  description: Package of validators and sanitizers for strings
+  package_url: https://pkg.go.dev/github.com/asaskevich/govalidator
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-01-19 19:08:22.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-12-22 23:39:54.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-24 08:01:26.000000000 Z
+- name: mergo
+  description: 'Mergo: merging Go structs and maps since 2013'
+  package_url: https://pkg.go.dev/github.com/imdario/mergo
+  version: 0.3.11
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2022-10-24 00:43:14.000000000 Z
+- name: mousetrap
+  description: Detect starting from Windows explorer
+  package_url: https://pkg.go.dev/github.com/inconshreveable/mousetrap
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2021-10-18 00:32:20.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2018-11-29 23:38:27.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+- name: pb
+  description: Console progress bar for Golang
+  package_url: https://pkg.go.dev/github.com/cheggaaa/pb
+  version: 1.0.25
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2018-11-29 23:38:27.000000000 Z
+- name: pb.v1
+  description: Simple console progress bars
+  package_url: https://pkg.go.dev/gopkg.in/cheggaaa/pb.v1
+  version: 1.0.26
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2018-11-29 23:38:27.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 1.0.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2020-12-31 01:20:05.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+- name: readline
+  description: Readline is a pure go
+  package_url: https://pkg.go.dev/github.com/chzyer/readline
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2021-10-18 00:32:20.000000000 Z
+- name: reflectwalk
+  description: Reflectwalk is a Go library for "walking" complex structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/reflectwalk
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2021-12-22 00:05:57.000000000 Z
+- name: runc
+  description: CLI tool for spawning and running containers according to the OCI specification
+  package_url: https://pkg.go.dev/github.com/opencontainers/runc
+  version: 1.1.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2018-11-29 23:38:27.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2023-04-15 15:38:49.000000000 Z
+- name: vtclean
+  description: Strips terminal escapes from text, can preserve color
+  package_url: https://pkg.go.dev/github.com/lunixbochs/vtclean
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2021-10-18 00:32:20.000000000 Z
+- name: xstrings
+  description: 'Xstrings: A collection of useful string functions for Go'
+  package_url: https://pkg.go.dev/github.com/huandu/xstrings
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Gilbertsoft
+  last_updated_on: 2023-05-17 01:18:44.000000000 Z
+- name: xtgo/uuid
+  description: Go uuid parsing and generation
+  package_url: https://pkg.go.dev/github.com/xtgo/uuid
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2021-10-09 13:19:20.000000000 Z
+- name: xz
+  description: Pure golang package for reading and writing xz-compressed files
+  package_url: https://pkg.go.dev/github.com/ulikunitz/xz
+  version: 0.5.10
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oeh77/ddev/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Randy Fay
+  last_updated_on: 2018-11-29 23:38:27.000000000 Z
